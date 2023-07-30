@@ -6,7 +6,7 @@ The Movie Theater App is a web application that allows users to view details of 
 
 Author:
 
-[Your Name]
+@Kmurll
 
 Technology Used:
 
