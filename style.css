@@ -1,0 +1,153 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set background and text color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Container to hold movies and movie details */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Style for the Movies section */
+  .movies {
+    flex: 1;
+  }
+  
+  .movies h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #444;
+  }
+  
+  #films {
+    list-style: none;
+  }
+  
+  .film.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .film.item:last-child {
+    border-bottom: none;
+  }
+  
+  .film.item:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .film-info {
+    flex: 1;
+  }
+  
+  .film-title {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .film-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 6px;
+  }
+  
+  .delete-button-container {
+    flex: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Style for the Movie Details section */
+  .movie-details {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .movie-details h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #444;
+  }
+  
+  .movie-info {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-info h3 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .movie-info img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  #buyTicketBtn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  #buyTicketBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #buyTicketBtn:hover {
+    background-color: #0056b3;
+  }
+  
